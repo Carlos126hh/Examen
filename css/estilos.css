@@ -1,0 +1,253 @@
+/* Estilos para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.Logo {
+    width: 45px;
+    height: 45px;
+
+}
+
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.boton1 {
+    border-radius: 100px;
+    background-color: blue;
+}
+
+.boton2 {
+    border-radius: 100px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el cuerpo principal */
+main {
+    padding: 20px;
+}
+
+main h2 {
+    margin-top: 0;
+    font-size: 28px;
+}
+
+main p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+main ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+main li {
+    margin-bottom: 10px;
+}
+
+main a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.features {
+    display: block;
+}
+
+.texto {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.titulo {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.texto {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.contacto {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contacto h2 {
+    margin-bottom: 20px;
+}
+
+.contacto label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.contacto input,
+.contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contacto button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 1px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contacto button:hover {
+    background-color: #3e8e41;
+}
+
+.noticias {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.noticias h2 {
+    margin-bottom: 20px;
+}
+
+.noticia {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.noticia img {
+    text-align:end;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.noticia h3 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.slider-container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slider {
+    width: 300%;
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slider img {
+    width: calc(100% / 3);
+  }
+  
+  .dots {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #bbb;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background-color: #555;
+  }
+  
+  
